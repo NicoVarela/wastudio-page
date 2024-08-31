@@ -1,0 +1,23 @@
+{
+  "name": "webaudiostudio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jose Nicolau Varela",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "elevenlabs": "^0.14.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "wavesurfer.js": "^7.8.4"
+  }
+}

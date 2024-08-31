@@ -1,0 +1,24 @@
+<%-include("partials/header.ejs")  %>
+<!-- <h1>Pre-produção do Comercial de Rádio </h1>
+   
+<p>Upload de arquivos (fala do candiato, depoimentos, convidados, jingle, vinhetas ou qualquer arquivo de áudio ). Importante que os audios já estejam nos tempos corretos</p> 
+   Geração de fala(locução, convidados virtuais) a partir de textos.
+   Geração de trilhas sonora e vinhetas instrumentais. -->
+<!-- <link rel="stylesheet" href="css/studio.css"> -->
+
+<main>
+<div class="container row">
+    <div class="barra_lateral col-md-2">
+        <%-include("partials/form_left.ejs")  %>   
+    </div>
+ 
+    <div class="estudio col-md-10">
+        <!-- <section class="novo_projeto"><%-include("partials/novo_projeto.ejs")  %></section> -->
+        <section class="tex_to_spch"><%-include("partials/text_speech.ejs")  %></section>
+        <!-- <section class="soundtrack"><%-include("partials/bg_music.ejs")  %></section> -->
+        <section class="mixer"><%-include("partials/mixer.ejs")  %></section>
+    </div> 
+   
+ </div> 
+</main> 
+<%-include("partials/footer.ejs")  %>

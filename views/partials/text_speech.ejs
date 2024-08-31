@@ -1,0 +1,93 @@
+<main>
+    
+    <div class="container " id="text-to-speech"><h3 style="color:rgb(185, 225, 249);">Converte Texto para Áudio</h3> 
+        <!-- <h4 style="color:rgb(234, 71, 11);">PÁGINA EM CONSTRUÇÃO - Under Construction</h4>  -->
+        <!-- <form action="generateAudio" method="post"> -->
+        <textarea id="text-input" style="width: 100%; background-color:rgb(177, 193, 246);"  placeholder="Escreva ou cole seu texto aqui"></textarea>
+       
+        <div class="row" >  <h4 style="color:rgb(43, 43, 16);"></h4>
+        <select class="voices col-md-3" id="voice_select" style="background-color:rgb(121, 150, 245);" title="Escolha a voz">   
+         <option value="Rachel"><i><b>Voz</b></i></option>
+         <option value="Rachel">Raquel</option>
+         <option value="Sarah">Sarah</option>
+         <option value="Laura">Laura</option>
+         <option value="Liam">Liana</option>
+         <option value="Charlotte">Charlene</option>
+         <option value="Alice">Alice</option>
+         <option value="Matilda">Matilda</option>
+         <option value="Lily">Lia</option>
+         <option value="Charlie">Charles</option>
+         <option value="George">Jorge</option>
+         <option value="Callum">Carlos</option>
+         <option value="Will">Wilton</option>
+         <option value="Eric">Erico</option>
+         <option value="Chris">Cristiano</option>
+         <option value="Brian">Brito</option>
+         <option value="Daniel">Daniel</option>
+         <option value="Bill">Bilu</option>
+         
+        </select> 
+
+        <!-- <h6>Estabilidade</h6> -->
+        <select class="col-md-3" style="background-color:rgb(159, 180, 248);" title="Estabilidade" id="stability">
+            <option value="0.1"><b>Estabilidade</b></option>
+            <option value="0.1">10%</option>
+            <option value="0.2">20%</option>
+            <option value="0.3">30%</option>
+            <option value="0.4">40%</option>
+            <option value="0.5">50%</option>
+            <option value="0.6">60%</option>
+            <option value="0.7">70%</option>
+            <option value="0.8">80%</option>
+            <option value="0.9">90%</option>
+            <option value="1.0">100%</option>
+           
+           
+           <!-- Add more voices as needed -->
+        </select>
+        <!-- <h6>Similaridade</h6> -->
+        <select class="col-md-3" style="background-color:rgb(159, 180, 248);" title="Similaridade" id="similarity">
+            <option value="0.3"><b>Similaridade</b></option>
+            <option value="0.3">30%</option>
+            <option value="0.1">10%</option>
+            <option value="0.2">20%</option>
+            <option value="0.4">40%</option>
+            <option value="0.5">50%</option>
+            <option value="0.6">60%</option>
+            <option value="0.7">70%</option>
+            <option value="0.8">80%</option>
+            <option value="0.9">90%</option>
+            <option value="1.0">100%</option>
+           
+           
+           <!-- Add more voices as needed -->
+        </select>
+        <!-- <h6>Exagero do estilo</h6> -->
+        <select class="col-md-3" style="background-color:rgb(159, 180, 248);"   title="Exagero no estilo"  id="style">
+            <option value="0.2"><b>Estilo</b></option>
+            <option value="0.2">20%</option>
+            <option value="0.1">10%</option>
+            <option value="0.3">30%</option>
+            <option value="0.4">40%</option>
+            <option value="0.5">50%</option>
+            <option value="0.6">60%</option>
+            <option value="0.7">70%</option>
+            <option value="0.8">80%</option>
+            <option value="0.9">90%</option>
+            <option value="1.0">100%</option>
+           
+           
+           <!-- Add more voices as needed -->
+        </select>
+<br>
+        <br>
+    <button type="submit" value="GenerateAudio" style="color:rgb(62, 91, 109);" id="generateAudio">➡️ Gerar Audio</button>
+    <!-- </form> -->
+    <div id="audio-container"></div>
+        </div>
+    </div>
+    
+
+    
+</main>
+<script src="js/studio.js"></script>
