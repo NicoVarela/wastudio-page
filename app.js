@@ -124,7 +124,7 @@ await saveAudioToFile(audio);
 });
 
 // Inicia o servidor
-const port = process.env.PORT || https://wastudio-page-90638302690.us-west1.run.app;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });
