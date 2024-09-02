@@ -124,7 +124,7 @@ await saveAudioToFile(audio);
 });
 
 // Inicia o servidor
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });
