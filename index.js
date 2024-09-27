@@ -53,9 +53,9 @@ app.post('/generateAudio', async (req, res) => {
     const { text, voice,stability, similarity, sty } = req.body;
     console.log(stability,similarity,sty, voice);
     
-    const apiKey = 'a2a285033e0493ef889a9ab973618bb3'; // Substitua pela sua chave da API da Eleven Labs
+    const apiKey = ''; // Substitua pela sua chave da API da Eleven Labs
     // const url = 'https://api.elevenlabs.io/v1/text-to-speech';
-    const client = new ElevenLabsClient({ apiKey: "a2a285033e0493ef889a9ab973618bb3" });
+    const client = new ElevenLabsClient({ apiKey: "" });
     const voices = await client.voices.getAll();
      console.log(voices);
     // const audio = await client.textToSpeech.convert("pMsXgVXv3BLzUgSXRplE", {
